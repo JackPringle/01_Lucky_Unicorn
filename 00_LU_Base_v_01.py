@@ -59,7 +59,3 @@ how_much = num_check("How much would you like to play with? ", 0, 10)
 
 print(f"You will be spending ${how_much}")
 
-having_fun = yes_no("Are you having fun? ")
-print(f"You said {having_fun} to having fun.")
-
-print("Program continues")
