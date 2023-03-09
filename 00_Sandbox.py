@@ -1,6 +1,10 @@
-import random
+greeting = "hello world"
+sides = "*" * 3
 
-for item in range(0, 20):
-    number = random.radint(0, 4)
-    print(number, end="\t")
+greeting = f"{sides} {greeting} {sides}"
 
+top_bottom = "*" * len(greeting)
+
+print(top_bottom)
+print(greeting)
+print(top_bottom)
